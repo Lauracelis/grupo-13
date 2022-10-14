@@ -2,13 +2,16 @@
 H1{
     text-align: center;
 }
+img{
+    width: 100px;
+}
 .grid-layout{
     display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: 30% 10% 50% auto;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 10% 15% 50% 25%;
     background-color: beige;
-    width: 80%;
-    height: 600px;
+    width: 100%;
+    height: 700px;
 
 }
 .caja1{
@@ -28,9 +31,9 @@ H1{
 }
 .caja4{
     border: black solid 1px;
-    grid-column: 1 /4;
+    grid-column: 3/4;
 }
 .caja5{
     border: black solid 1px;
-    grid-column: 3/4;
+    grid-column: 1/4;
 }
