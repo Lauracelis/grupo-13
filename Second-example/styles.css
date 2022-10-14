@@ -1,0 +1,36 @@
+
+H1{
+    text-align: center;
+}
+.grid-layout{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 30% 10% 50% auto;
+    background-color: beige;
+    width: 80%;
+    height: 600px;
+
+}
+.caja1{
+    border: black solid 1px;
+    grid-column: 1 /4;
+    background-color: aqua;
+}
+.caja2{
+    border: black solid 1px;
+    grid-column: 1/ span 3;
+    background-color: rgb(136, 59, 208);
+}
+.caja3{
+    border: black solid 1px;
+    grid-column: 1/ span 2;
+    background-color: blue;
+}
+.caja4{
+    border: black solid 1px;
+    grid-column: 1 /4;
+}
+.caja5{
+    border: black solid 1px;
+    grid-column: 3/4;
+}
